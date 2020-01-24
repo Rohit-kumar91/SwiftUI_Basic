@@ -10,7 +10,11 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello World")
+        HStack {
+            Text("Hello World")
+            Text("Rohit Kumar")
+        }
+        
     }
 }
 
